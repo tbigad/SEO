@@ -1,0 +1,39 @@
+<RCC>
+    <qresource prefix="/main">
+        <file>res/Bold.png</file>
+        <file>res/Italic.png</file>
+        <file>res/main_icon.png</file>
+        <file>res/Redo.png</file>
+        <file>res/Underline.png</file>
+        <file>res/Undo.png</file>
+        <file>res/Alignment_text.png</file>
+        <file>res/Alignment_text_left.png</file>
+        <file>res/Alignment_text_right.png</file>
+        <file>res/html.png</file>
+        <file>res/uniqueness.png</file>
+        <file>res/db_closed.png</file>
+        <file>res/db_opened.png</file>
+        <file>res/db_add.png</file>
+        <file>res/WF_main.png</file>
+        <file>res/auth.png</file>
+        <file>res/Import-Export.png</file>
+        <file>res/excel.png</file>
+        <file>res/csv.png</file>
+        <file>res/txt.png</file>
+        <file>res/filter.png</file>
+        <file>res/question.png</file>
+        <file>res/plus.png</file>
+        <file>res/cross.png</file>
+        <file>res/refresh.png</file>
+        <file>res/add_words.png</file>
+        <file>res/Tree.png</file>
+        <file>res/interpretation.png</file>
+        <file>res/compare.png</file>
+        <file>res/copy_parsing.png</file>
+        <file>res/find_clones.png</file>
+        <file>res/calculate.png</file>
+        <file>res/show_words.png</file>
+        <file>res/black_plus.png</file>
+        <file>res/add.png</file>
+    </qresource>
+</RCC>
