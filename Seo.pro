@@ -3,30 +3,31 @@
 # Project created by QtCreator 2014-09-24T22:52:15
 #
 #-------------------------------------------------
-include(/home/daek/Qt/xlsx/src/xlsx/qtxlsx.pri)
-QT       += core gui sql
-QT += network
+include(..\SEO\src\QtXlsxWriter-master\src\xlsx\qtxlsx.pri)
+#Qt Xlsx Module from http://qtxlsx.debao.me/
+
+QT += network core gui sql
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 TARGET = Seo
 TEMPLATE = app
 QMAKE_CXXFLAGS += -std=gnu++11
-SOURCES +=  ../Seo/TS_project/*.cpp \
-            ../Seo/WF_project/*.cpp \
-            ../Seo/*.cpp \
+SOURCES +=  ../SEO/TS_project/*.cpp \
+            ../SEO/WF_project/*.cpp \
+            ../SEO/*.cpp \
 
 LIBS += -L/usr/local/lib/ -lxml2
-HEADERS  += ../Seo/TS_project/*.h \
-            ../Seo/WF_project/*.h \
-            ../Seo/*.h \
+HEADERS  += ../SEO/TS_project/*.h \
+            ../SEO/WF_project/*.h \
+            ../SEO/*.h \
 
-HEADERS += /home/daek/Документы/sandbox9/third_party/libxml2-2.7.7/include/*.h
-SOURCES += /home/daek/Документы/sandbox9/third_party/libxml2-2.7.7/xmlmemory.c
+HEADERS += D:\lib\libxml2-2.7.7\include\*.h
+SOURCES += D:\lib\libxml2-2.7.7\xmlmemory.c
 
-FORMS    += ../Seo/TS_project/*.ui \
-            ../Seo/WF_project/*.ui \
-            ../Seo/*.ui
+FORMS    += ../SEO/TS_project/*.ui \
+            ../SEO/WF_project/*.ui \
+            ../SEO/*.ui
 
 RESOURCES += \
     res.qrc
